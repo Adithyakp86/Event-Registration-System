@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Event Registration System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive Event Registration System built with React, TypeScript, and CSS. This application allows users to browse events, register for events, and provides an admin dashboard for event management.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Public User Side**:
+  - Browse upcoming events with event cards
+  - View detailed event information
+  - Register for events with validation
+  - Responsive design for all devices
 
-### `npm start`
+- **Admin Dashboard**:
+  - Create, update, and delete events
+  - View participant lists
+  - Manage event capacity and registrations
+  - Statistics and analytics
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Technical Features**:
+  - TypeScript for type safety
+  - Responsive design with CSS
+  - Dark/light mode toggle
+  - Form validation
+  - Mock data implementation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React
+- TypeScript
+- CSS
+- React Router
+- React Context API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm start` to start the development server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Visit the home page to browse events
+2. Click on an event to view details and register
+3. Access the admin panel at `/admin` (default credentials: admin/admin)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+The application follows a component-based architecture with:
+- Components for UI elements
+- Pages for different views
+- Context for state management
+- Utils for business logic
+- Types for TypeScript interfaces
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is created as a final-year CSE project and is available for educational purposes.
